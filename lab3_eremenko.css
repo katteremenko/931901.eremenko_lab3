@@ -2,6 +2,7 @@ body
 	{
 		margin: 0;
 		overflow-x: hidden;
+		height: 100%;
 	}
 
 header
@@ -21,13 +22,13 @@ header
 		margin-left: auto;
 		margin-right: auto;
 		display: flex;
-
+		min-height: calc(100vh - 42.67px);
 	}
 
 .text
 	{
 		text-align: justify;
-		padding: 20px;
+		padding: 10px 20px 30px 20px;
 	}
 
 .text::selection
@@ -47,9 +48,9 @@ span
 		background-color: red;
 		color: white;
 		width: 20%;
-		height: 100vh;
 		padding: 10px;
 		flex: 0 0 13em;
+
 
 	}
 
@@ -75,3 +76,4 @@ footer
 		position: fixed;
 		bottom: 0;
 	}
+
